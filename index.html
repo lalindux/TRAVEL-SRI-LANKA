@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,9 @@
     <!-- FontAwesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
 
     <style>
         * {
@@ -40,8 +42,8 @@
             top: 0;
             left: 0;
             width: 100%;
-            background: var(--white);
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            background: #e8f5e9;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -75,7 +77,8 @@
             transition: 0.3s;
         }
 
-        .nav-links a:hover, .nav-links a.active {
+        .nav-links a:hover,
+        .nav-links a.active {
             color: var(--primary);
         }
 
@@ -88,7 +91,7 @@
         /* Hero Section */
         .hero {
             height: 90vh;
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1546708973-b339540b5162?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('IMG/bg.jpg') no-repeat center center/cover;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -118,7 +121,7 @@
             border-radius: 50px;
             width: 100%;
             max-width: 500px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
         }
 
         .search-box input {
@@ -188,7 +191,8 @@
             transition: 0.3s;
         }
 
-        .filter-btn.active, .filter-btn:hover {
+        .filter-btn.active,
+        .filter-btn:hover {
             background: var(--primary);
             color: var(--white);
         }
@@ -204,7 +208,7 @@
             background: var(--white);
             border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
             transition: transform 0.3s;
         }
 
@@ -294,13 +298,14 @@
             background: var(--white);
             border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
         }
 
         .video-container {
             position: relative;
             width: 100%;
-            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            padding-bottom: 56.25%;
+            /* 16:9 Aspect Ratio */
         }
 
         .video-container iframe {
@@ -346,7 +351,7 @@
                 width: 100%;
                 background: var(--white);
                 padding: 20px;
-                box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
                 text-align: center;
             }
 
@@ -364,13 +369,15 @@
         }
     </style>
 </head>
+
 <body>
 
     <!-- Header & Navbar -->
     <header>
         <a href="#" class="logo">
-            <img src="IMG/logo.jpg" alt="Explore Ceylon Logo" class="logo-img">Explore<span>Ceylon</span>
-            
+            <img src="IMG/logo.jpg" alt="Explore Ceylon Logo" class="logo-img">
+            Explore <span>Ceylon</span>
+
         </a>
         <ul class="nav-links" id="navLinks">
             <li><a href="#home" class="active">Home</a></li>
@@ -386,7 +393,8 @@
     <!-- Hero Section -->
     <section class="hero" id="home">
         <h1>Discover The Wonder of Sri Lanka</h1>
-        <p>Explore breathtaking beaches, ancient historical sites, and lush green mountains with our comprehensive guide.</p>
+        <p>Explore breathtaking beaches, ancient historical sites, and lush green mountains with our comprehensive
+            guide.</p>
         <div class="search-box">
             <input type="text" id="searchInput" placeholder="Search places (e.g., Sigiriya, Ella)...">
             <button id="searchBtn">Search</button>
@@ -425,7 +433,11 @@
                 <!-- Video Card 1 -->
                 <div class="video-card">
                     <div class="video-container">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/317NHcpayZM?si=JhSC2bKOoIDkFW5F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/317NHcpayZM?si=JhSC2bKOoIDkFW5F"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                     <div class="video-info">
                         <h4>Sri Lanka Cinematic Travel Film</h4>
@@ -435,7 +447,11 @@
                 <!-- Video Card 2 -->
                 <div class="video-card">
                     <div class="video-container">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CJmf4itKOu0?si=73tfbL8SAHaM9fgx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/CJmf4itKOu0?si=73tfbL8SAHaM9fgx"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                     <div class="video-info">
                         <h4>Beautiful Ella & Mountain Trails</h4>
@@ -698,8 +714,8 @@
 
         function handleSearch() {
             const query = searchInput.value.toLowerCase().trim();
-            const filtered = placesData.filter(place => 
-                place.name.toLowerCase().includes(query) || 
+            const filtered = placesData.filter(place =>
+                place.name.toLowerCase().includes(query) ||
                 place.district.toLowerCase().includes(query) ||
                 place.description.toLowerCase().includes(query)
             );
@@ -720,4 +736,5 @@
         });
     </script>
 </body>
+
 </html>
